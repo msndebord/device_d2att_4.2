@@ -32,3 +32,6 @@ TARGET_OTA_ASSERT_DEVICE := d2att
 # Kernel
 TARGET_KERNEL_CONFIG		:= underwear_d2att_defconfig
 
+TARGET_BOARD_INFO_FILE ?= device/samsung/d2att/board-info.txt
+
+
